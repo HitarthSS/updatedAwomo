@@ -1,0 +1,115 @@
+{
+  "protocol": "single matched development layout",
+  "initial_object_centers_match": true,
+  "runs": {
+    "native": {
+      "arm": "native",
+      "seed": 0,
+      "layout": 0,
+      "task": "store_tools_in_toolbox",
+      "policy": "Awomo-0.5I-Robodojo",
+      "partial_score": 0.0,
+      "success": false,
+      "steps": 900,
+      "horizon": 900,
+      "accounting": {
+        "steps": 900,
+        "decisions": 0,
+        "method_policy_samples": 113,
+        "native_policy_samples": 0,
+        "shadow_policy_samples": 0,
+        "llm_calls": 0,
+        "llm_tokens": 0,
+        "tool_calls": 0,
+        "policy_seconds": 450.346039400436,
+        "method_seconds": 0.0,
+        "termination": "horizon",
+        "extra": {},
+        "initial_observation_sha256": "4bdc9ae394bab881112e26255f2b71343e3575813cdb28dd70744e0b6574f1e5",
+        "history_frames": 900
+      },
+      "credited_tool": null,
+      "head_video_sha256": "08e49ba77afee05489afb582109d01bcb3992574348df771f3ad3ca5ec5564cf"
+    },
+    "grounded": {
+      "arm": "grounded",
+      "seed": 0,
+      "layout": 0,
+      "task": "store_tools_in_toolbox",
+      "policy": "Awomo-0.5I-Robodojo",
+      "partial_score": 25.0,
+      "success": false,
+      "steps": 900,
+      "horizon": 900,
+      "accounting": {
+        "steps": 900,
+        "decisions": 0,
+        "method_policy_samples": 99,
+        "native_policy_samples": 0,
+        "shadow_policy_samples": 0,
+        "llm_calls": 0,
+        "llm_tokens": 0,
+        "tool_calls": 0,
+        "policy_seconds": 191.1831578090787,
+        "method_seconds": 0.0,
+        "termination": "horizon",
+        "extra": {},
+        "initial_observation_sha256": "3abf3b0144cd2a8d1826989c365d2d1c685568e808da5921a36042bfe79af992",
+        "history_frames": 900
+      },
+      "credited_tool": "hammer",
+      "head_video_sha256": "6e2b6d42690fa3c0d0b4e0877cdb0503091deac5b99de981b15b72057ac778b1"
+    },
+    "seated": {
+      "arm": "seated",
+      "seed": 0,
+      "layout": 0,
+      "task": "store_tools_in_toolbox",
+      "policy": "Awomo-0.5I-Robodojo",
+      "partial_score": 25.0,
+      "success": false,
+      "steps": 900,
+      "horizon": 900,
+      "accounting": {
+        "steps": 900,
+        "decisions": 0,
+        "method_policy_samples": 12,
+        "native_policy_samples": 0,
+        "shadow_policy_samples": 0,
+        "llm_calls": 0,
+        "llm_tokens": 0,
+        "tool_calls": 0,
+        "policy_seconds": 30.93735505733639,
+        "method_seconds": 0.0,
+        "termination": "horizon",
+        "extra": {},
+        "initial_observation_sha256": "c5bd086007b3a83d8496ea0e89fa250ff850c9c48f756785fc8e802ded4562fa",
+        "history_frames": 900
+      },
+      "terminal_tool_checks": {
+        "hammer": {
+          "close": true,
+          "aligned": false,
+          "covered": false
+        },
+        "pliers": {
+          "close": false,
+          "aligned": false,
+          "covered": false
+        },
+        "tape_measure": {
+          "close": true,
+          "aligned": true,
+          "covered": true
+        },
+        "wrench": {
+          "close": false,
+          "aligned": false,
+          "covered": false
+        }
+      },
+      "credited_tool": "tape measure",
+      "head_video_sha256": "f0217962ca3892212d97a1c4400ad079435c2e83332d57a1e3e3d774b45672c6"
+    }
+  }
+}
